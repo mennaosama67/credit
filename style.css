@@ -148,11 +148,11 @@ header {
     font-size: 1rem;
   }
   .header-media {
-    width: 40%;
+    width: 100%;
     margin: auto;
   }
   .header-media video {
-    width: 70%;
+    width: 100%;
   }
   .section-padding {
     padding: 2rem 3rem;
@@ -694,7 +694,7 @@ p {
   @media screen and (max-width: 1250px) {
     .q-and-a-content h1 {
       font-size: 1.8rem;
-      margin-bottom: 5rem;
+      margin-bottom: 3rem;
     }
     .q-and-a-content h2 {
       font-size: 1.5rem;
@@ -702,7 +702,7 @@ p {
     }
     .q-and-a-content p {
       font-size: 1.1rem;
-      margin-bottom: 3rem;
+      margin-bottom: 1.5rem;
     }
   }
   @media screen and (max-width: 750px) {
@@ -711,7 +711,7 @@ p {
     }
     .q-and-a-content h1 {
       font-size: 1.5rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2.5rem;
     }
     .q-and-a-content h2 {
       font-size: 1rem;
@@ -719,7 +719,7 @@ p {
     }
     .q-and-a-content p {
       font-size: 0.7rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
   }
 
