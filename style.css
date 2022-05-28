@@ -254,7 +254,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 95%;
+  width: 77%;
   margin: 2rem auto;
 }
 .work-head {
@@ -276,7 +276,7 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 85%;
+  width:80%;
 }
 .work-content {
   padding: 1rem 2rem;
@@ -385,6 +385,7 @@ p {
   margin-top: 1rem;
   outline: none;
 }
+
 .about-credit-cartel .croped-img {
   height: 100%;
   position: absolute;
@@ -411,6 +412,7 @@ p {
     margin: 0;
     width: 70%;
   }
+}
 
   @media screen and (max-width: 1240px) {
     .about-credit-cartel-content h1 {
@@ -423,6 +425,16 @@ p {
       height: 90%;
     }
   }
+  @media screen and (max-width: 1180px) {
+    .about-credit-cartel .croped-img {
+      height: 83%;
+    }
+    .about-credit-cartel-content {
+      margin: 0;
+      width: 65%;
+    }
+  }
+
   @media screen and (max-width: 1110px) {
     .about-credit-cartel-content {
       width: 95%;
