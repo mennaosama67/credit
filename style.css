@@ -78,7 +78,8 @@ header {
   font-weight: 500;
 }
 .header-media {
-  width: 38%;
+  min-width: 38%;
+  width: 40%;
   margin: auto;
 }
 .header-media iframe {
