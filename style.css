@@ -81,7 +81,7 @@ header {
   width: 38%;
   margin: auto;
 }
-.header-media video {
+.header-media iframe {
   width: 100%;
 }
 .mobile-header-btn {
