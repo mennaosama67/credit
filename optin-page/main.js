@@ -3,7 +3,11 @@ let randomCode=['credit-cartel/b15','credit-cartel/za2','credit-cartel/5la',
 'credit-cartel/x24'
 ,'credit-cartel/q32','credit-cartel/u69','credit-cartel/n67','credit-cartel/m98',
 'credit-cartel/c20','credit-cartel/d44','credit-cartel/j80','credit-cartel/t11',
-'credit-cartel/v07','credit-cartel/r37','credit-cartel/i26','credit-cartel/f19'];
+'credit-cartel/v07','credit-cartel/r37','credit-cartel/i26','credit-cartel/f19',
+'MILLIONDOLLARCLOSER','AMANDAK22','AMNAF22','JJAMES22',
+'NICKPERRYREI','ELENAV22','GALINDOS22','REHABKING',
+'WILLNYG22','DEREKT22','KYLERK22','EASYP22','SYNSYN22',
+'DPRICE22','MEMORIALDAY2022'];
 
 const referralInput=document.querySelector('.referral');
 const submitBtn=document.querySelector('.header-btn')

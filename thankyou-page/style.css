@@ -1,11 +1,11 @@
 .thank-you-page{
     background-image: url("./../assets/thankyou-bg.png");
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 
 }
 .thank-you-content {
-    margin: 2rem 2rem;
+    margin:auto;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -56,8 +56,8 @@
         font-size: 14px;
         margin: 2rem 0;
     }
-    .thank-you-conten .social-icon{
-        width: 30px;
+    .thank-you-content .social-icon{
+        width: 25px;
     }
 }
 @media screen and (max-width:750px) {

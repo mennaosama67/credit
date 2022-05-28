@@ -1,11 +1,11 @@
-
 .optin-page-container{
-    height: 100vh;
+    height: 100%;
     background-image: url("./../assets/optin-bg.png");
     background-size: cover;
+   
 }
 .optin-page-content{
-    margin: 1rem auto;
+    margin:  auto;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ p.invalid{
 }
 @media screen and (max-width:950px) {
     .optin-page-content{
-        margin: 2rem auto;
+        margin:  auto;
     }
     .optin-page-content img{
         width:500px;
@@ -131,7 +131,7 @@ p.invalid{
 }
 @media screen and (max-width:550px) {
     .optin-page-content{
-        margin: 2rem auto;
+        margin:  auto;
     }
     .optin-page-content p{
         font-size: 1.8rem;
