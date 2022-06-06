@@ -7,17 +7,31 @@ let randomCode=['credit-cartel/b15','credit-cartel/za2','credit-cartel/5la',
 'MILLIONDOLLARCLOSER','AMANDAK22','AMNAF22','JJAMES22',
 'NICKPERRYREI','ELENAV22','GALINDOS22','REHABKING',
 'WILLNYG22','DEREKT22','KYLERK22','EASYP22','SYNSYN22',
-'DPRICE22','LILD'];
+'DPRICE22','LILD','CCRENTERPRISE','THATCASUALKID'];
 
 const referralInput=document.querySelector('.referral');
-const submitBtn=document.querySelector('.header-btn')
+
 
 const invalidInput=document.querySelector('.invalid');
 const scriptURL = 'https://script.google.com/macros/s/AKfycbyVLkM-XztLihYZm3CnX3D4ZImJ98E5r4e9OpqGKZrOYXxHN8XRzs4P20KvyKwcjKWa/exec'
 const form = document.forms['google-sheet']
- referralInput.addEventListener('mouseleave',function(){
-     if(randomCode.includes(referralInput.value)){
-      
+form.addEventListener('submit', e => {
+    e.preventDefault();
+    if(randomCode.includes(referralInput.value)|| referralInput.value===""){
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response=>console.log('success',response)).catch(error=>console.log("error",error))
+        document.forms['google-sheet'].reset()
+        setTimeout(() => {
+            window.location.href='./../thankyou-page/index.html'
+        }, 1000);
+    }
+    else{
+        invalidInput.innerHTML='invalid referral code';
+  }
+})
+ /*referralInput.addEventListener('mouseup',function(){
+     if(randomCode.includes(referralInput.value)|| referralInput.value===""){
+         console.log(referralInput.value)
         form.addEventListener('submit', e => {
             e.preventDefault()
             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
@@ -28,7 +42,7 @@ const form = document.forms['google-sheet']
             }, 1000);
         })
         
-   }else if(referralInput.value!=''){
+   }else{
          invalidInput.innerHTML='invalid referral code';
    }
- })
+ })*/
