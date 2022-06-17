@@ -4,6 +4,9 @@
     height: 100%;
 
 }
+button{
+    cursor: pointer;
+}
 .thank-you-content {
     margin:auto;
     text-align: center;
