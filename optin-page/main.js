@@ -7,7 +7,7 @@ let randomCode=['credit-cartel/b15','credit-cartel/za2','credit-cartel/5la',
 'MILLIONDOLLARCLOSER','AMANDAK22','AMNAF22','JJAMES22',
 'NICKPERRYREI','ELENAV22','GALINDOS22','REHABKING',
 'WILLNYG22','DEREKT22','KYLERK22','EASYP22','SYNSYN22',
-'DPRICE22','LILD','CCRENTERPRISE','THATCASUALKID'];
+'DPRICE22','LILD','CCRENTERPRISE','THATCASUALKID','FABIAN2022'];
 
 const referralInput=document.querySelector('.referral');
 
